@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List App with Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>To-Do List App</h1>
+        <div class="todo-container">
+            <input type="text" id="task-input" placeholder="Add a new task">
+            <button id="add-task-btn">Add Task</button>
+            <ul id="task-list"></ul>
+        </div>
+        <div class="timer-container">
+            <h2> Timer</h2>
+            <input type="number" id="timer-input" placeholder="Minutes" min="1" max="120">
+            <button id="set-timer-btn">Set Timer</button>
+            <div id="timer-display">00:00</div>
+            <button id="start-timer-btn">Start Timer</button>
+            <button id="reset-timer-btn">Reset Timer</button>
+        </div>
+
+      
+        
+        <audio src="beep.mp3" class = " music" preload="auto"> music</audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
